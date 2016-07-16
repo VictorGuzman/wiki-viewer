@@ -1,0 +1,122 @@
+// Color variables
+$dark-red: rgb(136,59,69);
+$light-blue: rgb(186,210,225);
+
+#main-jumbo-wrapper {
+  margin-top: 35px;
+  background-color: $light-blue;
+}
+
+#main-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 105px;
+  color: $dark-red;
+}
+
+.input-large {
+  height: 50px;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  border-radius: 20px;
+}
+
+.search-btn {
+  border: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  margin-top: 27.5px;
+  color: white;
+  background-color: $dark-red;
+  border-radius: 20px;
+   &:focus {
+    background-color: $dark-red !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+  }
+  &:active {
+    background-color: $dark-red !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+  }
+  &:hover {
+    background-color: $dark-red !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+    font-weight: bold;
+  }
+}
+
+.random-btn {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  margin-top: 27.5px;
+  background-color: $light-blue;
+  border-color: $light-blue;
+  &:focus {
+    background-color: $light-blue !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+  }
+  &:active {
+    background-color: $light-blue !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+  }
+  &:hover {
+    background-color: $light-blue !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+    font-weight: bold;
+  }
+}
+
+.custom-panel {
+  .panel-heading {
+    border-radius: 20px;
+    font-family: 'Amatic SC', cursive;
+    h2 {
+      font-size: 35px;
+      font-weight: bold;
+      color: $dark-red;
+    }
+  }
+  .panel-body {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+  }
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+footer {
+  font-family: 'Hind', sans-serif;
+  a{
+    color: $dark-red;
+    text-decoration: none;
+    &:hover {
+      color: $dark-red;
+      text-decoration: none;
+    }
+  }
+}

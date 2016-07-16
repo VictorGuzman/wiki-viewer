@@ -1,0 +1,118 @@
+#main-jumbo-wrapper {
+  margin-top: 35px;
+  background-color: #bad2e1;
+}
+
+#main-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 105px;
+  color: #883b45;
+}
+
+.input-large {
+  height: 50px;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  border-radius: 20px;
+}
+
+.search-btn {
+  border: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  margin-top: 27.5px;
+  color: white;
+  background-color: #883b45;
+  border-radius: 20px;
+}
+.search-btn:focus {
+  background-color: #883b45 !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.search-btn:active {
+  background-color: #883b45 !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.search-btn:hover {
+  background-color: #883b45 !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: bold;
+}
+
+.random-btn {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  margin-top: 27.5px;
+  background-color: #bad2e1;
+  border-color: #bad2e1;
+}
+.random-btn:focus {
+  background-color: #bad2e1 !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.random-btn:active {
+  background-color: #bad2e1 !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.random-btn:hover {
+  background-color: #bad2e1 !important;
+  border: none !important;
+  outline: none !important;
+  background-image: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: bold;
+}
+
+.custom-panel {
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.custom-panel .panel-heading {
+  border-radius: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+.custom-panel .panel-heading h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #883b45;
+}
+.custom-panel .panel-body {
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  font-family: 'Hind', sans-serif;
+}
+footer a {
+  color: #883b45;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #883b45;
+  text-decoration: none;
+}
